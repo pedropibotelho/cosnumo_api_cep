@@ -31,13 +31,13 @@ class AddressModel {
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
-    data['cep'] = this.cep;
-    data['logradouro'] = this.logradouro;
-    data['complemento'] = this.complemento;
-    data['unidade'] = this.unidade;
-    data['bairro'] = this.bairro;
-    data['localidade'] = this.localidade;
-    data['uf'] = this.uf;
+    data['cep'] = cep;
+    data['logradouro'] = logradouro;
+    data['complemento'] = complemento;
+    data['unidade'] = unidade;
+    data['bairro'] = bairro;
+    data['localidade'] = localidade;
+    data['uf'] = uf;
     return data;
   }
 }
